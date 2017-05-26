@@ -1,0 +1,80 @@
+.alt-section{
+	background:#92b595;
+	min-width:960px;
+	text-align:center;
+	padding:15px 30px 60px 15px;
+	
+}
+#thumb-container{
+	max-width:960px;
+	margin:0px auto;
+	margin-bottom:30px;
+	
+}
+.clearfix:after{
+	content: " ";
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+}
+.clearfix{
+	display:inline-block;
+}
+.thumb-unit {
+	display:block;
+	width:25%;
+	float:left;
+	position:relative;
+	height:100px;
+	overflow:hidden;
+	background-position: center center;
+	background-repeat: no repeat;
+	background-size:cover;
+	
+	}
+
+
+#thumb-container a{
+	text-decoration:none;
+	
+}
+.thumb-overlay{
+	position:absolute;
+	bottom:-100%;
+	background:#92b595;
+	width:100%;
+	height:100%;
+	opacity: 0.0;
+	background-size:cover;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	transition:.5s;
+	
+	
+}
+.thumb-overlay a{
+	text-decoration:none;
+	font-size:16px;
+	color:#fff;
+	font-weight:900;
+	text-transform:uppercase;
+}
+.thumb-overlay:hover{
+	-webkit-animation: fadin 4s linear 1 forwards;
+	animation: fadein 4s linear 1 forwards;
+}
+@-webkit-keyframes fadein{
+	0% { opacity: 0.5; }
+	50% { opacity: 1; }
+	100% { opacity: 0.8; }
+}
+@keyframes fadein{
+	0% { opacity: 0.5; }
+	50% { opacity: 1; }
+	100% { opacity: 0.8; }
+}
+.thumb-unit:hover .thumb-overlay{
+	bottom:0%;
+}

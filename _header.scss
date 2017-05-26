@@ -1,0 +1,89 @@
+header{
+	max-height:450px;
+	background:url(../img/225H.jpg) center center;
+	background-size:cover;
+}
+.logo{
+	max-height:50px;
+	max-width:50px;
+	border-radius:75%;
+	float:left;
+	margin:10px 0 0 30px;
+	background:$primary-color;
+	
+}
+
+nav{
+	float:right;
+	margin:30px 30px 0 0;
+	
+}
+	nav a{
+		display:inline-block;
+		margin-left:20px;
+		font-size:14px;
+		font-weight:700;
+		text-transform:uppercase;
+		color:#fff;
+		text-decoration:none;
+		background:$primary-color;
+		border-radius:75%;
+	}
+nav a:hover{
+	color:$primary-color;
+}
+h1{
+	font-size:72px;
+	font-weight:700;
+	color:$primary-color;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:20px;
+	clear:both;
+	padding-top:100px;
+	
+	
+}
+
+header span{
+	display:inline-block;
+	border:$primary-color solid 10px;
+	padding:0.2em 0.5em;
+	border-radius:75%;
+}
+.kicker{
+	text-align:center;
+	font-weight:700;
+	text-transform:uppercase;
+	color:$secondary-color;
+	line-height:1;
+	padding-bottom:20px;
+}
+@media screen and (max-width:650px){
+	header, h1, nav, p, span, h1 span{
+		display:block;
+		text-align:center;
+		width:auto 100%;
+		background-postion: center center;
+		background-repeat:no repeat;
+		
+	}
+	h1 {
+		display:block;
+		max-width:310px;
+		font-size:24px;
+		text-align:center;
+		display-item:center;
+		
+	}
+	}
+.clearfix:after{
+	content:" ";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix{
+	display:inline-block;
+}
