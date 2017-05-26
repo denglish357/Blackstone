@@ -1,0 +1,439 @@
+/* line 1, ../scss/layouts/_header.scss */
+header {
+  max-height: 450px;
+  background: url(../img/225H.jpg) center center;
+  background-size: cover;
+}
+
+/* line 6, ../scss/layouts/_header.scss */
+.logo {
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 75%;
+  float: left;
+  margin: 10px 0 0 30px;
+  background: #7f3839;
+}
+
+/* line 16, ../scss/layouts/_header.scss */
+nav {
+  float: right;
+  margin: 30px 30px 0 0;
+}
+
+/* line 21, ../scss/layouts/_header.scss */
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  background: #7f3839;
+  border-radius: 75%;
+}
+
+/* line 32, ../scss/layouts/_header.scss */
+nav a:hover {
+  color: #7f3839;
+}
+
+/* line 35, ../scss/layouts/_header.scss */
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #7f3839;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  clear: both;
+  padding-top: 100px;
+}
+
+/* line 48, ../scss/layouts/_header.scss */
+header span {
+  display: inline-block;
+  border: #7f3839 solid 10px;
+  padding: 0.2em 0.5em;
+  border-radius: 75%;
+}
+
+/* line 54, ../scss/layouts/_header.scss */
+.kicker {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #19471d;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  /* line 63, ../scss/layouts/_header.scss */
+  header, h1, nav, p, span, h1 span {
+    display: block;
+    text-align: center;
+    width: auto 100%;
+    background-postion: center center;
+    background-repeat: no repeat;
+  }
+
+  /* line 71, ../scss/layouts/_header.scss */
+  h1 {
+    display: block;
+    max-width: 310px;
+    font-size: 24px;
+    text-align: center;
+    display-item: center;
+  }
+}
+/* line 80, ../scss/layouts/_header.scss */
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 87, ../scss/layouts/_header.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 1, ../scss/layouts/_footer.scss */
+footer {
+  max-height: 250px;
+  min-width: 960px;
+  background: url(../img/225H.jpg) center 80%;
+  background-size: cover;
+}
+
+/* line 8, ../scss/layouts/_footer.scss */
+.lockup {
+  padding: 20px 30px;
+}
+
+/* line 12, ../scss/layouts/_footer.scss */
+.lockup .logo {
+  max-height: 50px;
+  max-width: 50px;
+  margin-right: 30px;
+  position: relative;
+  left: -7%;
+  bottom: 70%;
+}
+
+/* line 20, ../scss/layouts/_footer.scss */
+.content-wrap {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+/* line 25, ../scss/layouts/_footer.scss */
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 32, ../scss/layouts/_footer.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 35, ../scss/layouts/_footer.scss */
+.copyright {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: black;
+}
+
+/* line 41, ../scss/layouts/_footer.scss */
+.skill-label {
+  margin-right: 500px;
+  text-align: center;
+}
+
+/* line 1, ../scss/layouts/_about.scss */
+h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #19471d;
+  padding-top: 100px 0 30px;
+}
+
+/* line 9, ../scss/layouts/_about.scss */
+.face-lockup {
+  max-width: 780px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 16, ../scss/layouts/_about.scss */
+.face-img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+/* line 20, ../scss/layouts/_about.scss */
+.icon-pencil, .icon-computer, .icon-mouse, .icon-video {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  background: #92b595;
+}
+
+/* line 27, ../scss/layouts/_about.scss */
+.icon-pencil .st0, .icon-computer .st0, .icon-mouse .st0, .icon-video .st0 {
+  fill: #7f3839;
+}
+
+/* line 30, ../scss/layouts/_about.scss */
+.face-img, .icon-pencil, .icon-computer, .icon-mouse, .icon-video {
+  display: inline-block;
+}
+
+/* line 34, ../scss/layouts/_about.scss */
+.icon-pencil {
+  order: 1;
+}
+
+/* line 36, ../scss/layouts/_about.scss */
+.icon-computer {
+  order: 2;
+}
+
+/* line 38, ../scss/layouts/_about.scss */
+.face-img {
+  order: 3;
+}
+
+/* line 40, ../scss/layouts/_about.scss */
+.icon-mouse {
+  order: 4;
+}
+
+/* line 42, ../scss/layouts/_about.scss */
+.icon-video {
+  order: 5;
+}
+
+@media screen and (max-width: 650px) {
+  /* line 47, ../scss/layouts/_about.scss */
+  .face-lockup img {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* line 52, ../scss/layouts/_about.scss */
+  div {
+    display: inline-block;
+    width: 100%;
+  }
+
+  /* line 56, ../scss/layouts/_about.scss */
+  .face-lockup img {
+    display: block;
+    background-postion: center center;
+    width: 100%;
+    background-repeat: no repeat;
+  }
+}
+/* line 64, ../scss/layouts/_about.scss */
+.blurb {
+  max-width: 620px;
+  padding: 0 15px;
+  margin: 50px auto;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* line 72, ../scss/layouts/_about.scss */
+.skill-lockup {
+  max-width: 700px;
+  margin: 100px auto;
+  color: #999;
+}
+
+/* line 79, ../scss/layouts/_about.scss */
+.skill-unit {
+  max-width: 350px;
+  float: left;
+  position: relative;
+  left: 33%;
+}
+
+/* line 85, ../scss/layouts/_about.scss */
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 92, ../scss/layouts/_about.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 95, ../scss/layouts/_about.scss */
+.skill-icon {
+  font-size: 0;
+  margin-bottom: 0 0 30px;
+}
+
+/* line 99, ../scss/layouts/_about.scss */
+.skill-icon span {
+  display: inline-block;
+  max-width: 14px;
+  max-height: 14px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-right: 5px;
+  border: #92b595 solid 8px;
+}
+
+/* line 108, ../scss/layouts/_about.scss */
+span after {
+  content: " ";
+  display: block;
+  max-width: 10px;
+  max-height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+/* line 117, ../scss/layouts/_about.scss */
+#work {
+  text-align: center;
+}
+
+/* line 1, ../scss/layouts/_work.scss */
+.alt-section {
+  background: #92b595;
+  min-width: 960px;
+  text-align: center;
+  padding: 15px 30px 60px 15px;
+}
+
+/* line 8, ../scss/layouts/_work.scss */
+#thumb-container {
+  max-width: 960px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+/* line 14, ../scss/layouts/_work.scss */
+.clearfix:after {
+  content: " ";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}
+
+/* line 21, ../scss/layouts/_work.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 24, ../scss/layouts/_work.scss */
+.thumb-unit {
+  display: block;
+  width: 25%;
+  float: left;
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no repeat;
+  background-size: cover;
+}
+
+/* line 38, ../scss/layouts/_work.scss */
+#thumb-container a {
+  text-decoration: none;
+}
+
+/* line 42, ../scss/layouts/_work.scss */
+.thumb-overlay {
+  position: absolute;
+  bottom: -100%;
+  background: #92b595;
+  width: 100%;
+  height: 100%;
+  opacity: 0.0;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: .5s;
+}
+
+/* line 57, ../scss/layouts/_work.scss */
+.thumb-overlay a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* line 64, ../scss/layouts/_work.scss */
+.thumb-overlay:hover {
+  -webkit-animation: fadin 4s linear 1 forwards;
+  animation: fadein 4s linear 1 forwards;
+}
+
+@-webkit-keyframes fadein {
+  /* line 69, ../scss/layouts/_work.scss */
+  0% {
+    opacity: 0.5;
+  }
+
+  /* line 70, ../scss/layouts/_work.scss */
+  50% {
+    opacity: 1;
+  }
+
+  /* line 71, ../scss/layouts/_work.scss */
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadein {
+  /* line 74, ../scss/layouts/_work.scss */
+  0% {
+    opacity: 0.5;
+  }
+
+  /* line 75, ../scss/layouts/_work.scss */
+  50% {
+    opacity: 1;
+  }
+
+  /* line 76, ../scss/layouts/_work.scss */
+  100% {
+    opacity: 0.8;
+  }
+}
+
+/* line 78, ../scss/layouts/_work.scss */
+.thumb-unit:hover .thumb-overlay {
+  bottom: 0%;
+}
